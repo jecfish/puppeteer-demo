@@ -10,6 +10,6 @@ const puppeteer = require('puppeteer');
     return [...nodes].map(el => el.textContent);
   });
   console.log(packages);
-  
+
   browser.close();
 })();
